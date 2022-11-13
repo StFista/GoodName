@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="Style.css">
+		<script src="script2.js"></script>
+		<title>Comments</title>
+	</head>
+	<body>
+		<div class="Title">Отправьте свoё <br> сообщение!</div>
+		
+		<hr color=#ffca82 size=7>
+		
+		<section class="panel" id="Comments-page">
+			<form name="Message">
+			<div class="SendComment">
+				<p>ФИО<br>
+				<input type="text" class="text" name="NameComment"r equired></p>
+				
+				<p>E-mail<br>
+				<input type="email" class="text" name="EmailComment" required></p>
+				
+				<p>Текст сообщения<br>
+				<textarea rows=4 class="text" name="TextComment"></textarea></p>
+				
+				<p><input type="submit" value="Отправить" id="SendButtom" class="Buttom" onclick="SendComments"></p>
+			  </form>
+		 </div>
+		  
+		 <hr color=#ffca82 size=7>
+		  
+		  <div class="Comments">
+			<p>Уже оставленные сообщения:</p>
+			<div class="Comments-list" id="comments_list">
+				<div class="Comment-item">
+					<div class="Comment-name"> FVST</div>
+					<div class="Comment-email"> SevenDays@hollownest.com</div>
+					<div class="Comment"> Воу-воу-воу! Это действительно не работает!</div>
+				</div>
+			</div>
+			<p><input type="buttom" value="Открыть ещё" id="SeeMoreButtom" class="Buttom" onclick="SeeMoreComments"></p>
+		  </div>
+	  </section>
+	</body>
+</html>

@@ -1,0 +1,103 @@
+body{
+	background-color:white;
+}
+
+hr{
+	width:70%;
+	margin:0 15%;
+	border-radius: 5px;
+}
+
+
+*{
+	font-family:"Garamond";
+	padding:0;
+	margin:0;
+	letter-spacing:1px;
+	font-size:20px;
+}
+
+p{
+	text-align:left;
+	margin:7px 0px;
+}
+
+.text{
+	width:100%;
+	resize:none;
+	border: 2px solid #ffca82;
+}
+
+
+.Title{
+	padding:20px 0;
+	color: #ff9100;
+	font-size:60px;
+	font-weight: bold;
+	text-align: center;
+}
+	
+section.panel{
+	width:100%;
+	padding:20px 0px;
+}
+
+section#Comments-page {
+	text-align:center;
+	color: #ba4f07;
+}
+
+div.SendComment{
+	width:40%;
+	margin:10px 30%;
+}
+
+input.Buttom{
+	color: #ba4f07;
+	width:200px;
+	text-align:center;
+	padding:2px;
+	background-color:#ffca82;
+	border-radius: 10px;
+	border: 1px solid #ba4f07;
+}
+
+input.Buttom:hover{
+	color: #ff9100;
+	background-color:#ffca82;
+	border: 1px solid #ff9100;
+}
+
+div.Comments{
+	width:60%;
+	margin:0 20%;
+}
+
+div.Comments p{
+	font-size:25px;
+	font-weight: bold;
+}
+
+div.Comments-list{
+	text-align:justify;
+}
+
+div.Comment-item{
+	margin:20px 10px;
+}
+
+div.Comment-name{
+	color:#ff9100;
+	font-size:32px;
+	font-weight: bold;
+}
+
+div.Comment-email{
+	margin:0px 20px;
+	font-size:12px;
+}
+
+div.Comment{
+	margin:10px 10px;
+	font-size:25px;
+}
